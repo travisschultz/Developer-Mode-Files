@@ -1,0 +1,122 @@
+﻿<VarianResearchBeam SchemaVersion="1.0">
+<SetBeam>
+	<Id>1762470768</Id>
+	<TrajectoryUploadInfo><![CDATA[ftp://172.20.20.100/TrajectoryLog\Plan QA\TrajectoryLog_00.bin]]></TrajectoryUploadInfo>
+	<MLCModel><![CDATA[NDS120]]></MLCModel>
+	<TolTable>
+		<GantryRtn>0.5</GantryRtn>
+		<CollRtn>0.5</CollRtn>
+		<CouchVrtISO>2</CouchVrtISO>
+		<CouchLatISO>2</CouchLatISO>
+		<CouchLngISO>2</CouchLngISO>
+		<CouchRtnISO>0.5</CouchRtnISO>
+		<CouchPitISO>0.5</CouchPitISO>
+		<CouchRolISO>0.5</CouchRolISO>
+		<Y12>0.5</Y12>
+		<X12>0.5</X12>
+	</TolTable>
+	<VelTable></VelTable>
+	<Accs>
+		<Acc1>0</Acc1>
+		<Acc2>0</Acc2>
+		<Acc3>0</Acc3>
+		<Acc4>0</Acc4>
+	</Accs>
+	<ControlPoints>
+		<Cp>
+			<WorkObjectID>Linac</WorkObjectID>
+			<TreatProgressEvent />
+			<SubBeam>
+				<Seq>0</Seq>
+				<SubbeamGUID><![CDATA[<BeamIdentifier><PlanInstanceUID>1.2.246.352.221.4681119652560001200.7780844050430058635</PlanInstanceUID><BeamNumber>13</BeamNumber></BeamIdentifier>]]></SubbeamGUID>
+				<Name><![CDATA[G180]]></Name>
+			</SubBeam>
+			<Energy>6x</Energy>
+			<Mu>0</Mu>
+			<DRate>600</DRate>
+			<GantryRtn>0</GantryRtn>
+			<CollRtn>180</CollRtn>
+			<CouchVrtISO>104.1</CouchVrtISO>
+			<CouchLatISO>100</CouchLatISO>
+			<CouchLngISO>70</CouchLngISO>
+			<CouchRtnISO>180</CouchRtnISO>
+			<CouchPitISO>0</CouchPitISO>
+			<CouchRolISO>0</CouchRolISO>
+			<Y1>8.5</Y1>
+			<Y2>4.5</Y2>
+			<X1>4.5</X1>
+			<X2>4.5</X2>
+			<Mlc>
+				<ID>1</ID>
+				<B>5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 1 1 1 1 -2 -2 -2 -2 1 1 1 1 5.029 5.029 1 1 1 1 5.029 5.029 1 1 1 1 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029</B>
+				<A>-5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 1 1 1 1 4 4 4 4 1 1 1 1 -5.029 -5.029 1 1 1 1 -5.029 -5.029 1 1 1 1 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029</A>
+			</Mlc>
+		</Cp>
+		<Cp>
+			<Mu>10</Mu>
+		</Cp>
+		<Cp>
+			<Mlc>
+				<ID>1</ID>
+				<B>5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5 5 5 5 5 5 5 5 5 5 5 5 5.029 5.029 5 5 5 4 4 4 4 5 5 5 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029 5.029</B>
+				<A>-5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5 -5.029 -5.029 -5 -5 -5 -2 -2 -2 -2 -5 -5 -5 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029 -5.029</A>
+			</Mlc>
+		</Cp>
+		<Cp>
+			<TreatProgressEvent />
+			<Mu>20</Mu>
+		</Cp>
+	</ControlPoints>
+	<ImagingParameters>
+		<DuringTreatment />
+		<SteppingStoneEnabled>true</SteppingStoneEnabled>
+		<ImagingPoints>
+			<ImagingPoint>
+				<Cp>0</Cp>
+				<AcquisitionStart>
+					<AcquisitionId>841496012</AcquisitionId>
+					<AcquisitionSpecs>
+						<Handshake>true</Handshake>
+						<MVDose>0</MVDose>
+					</AcquisitionSpecs>
+				</AcquisitionStart>
+				<Mvd>
+					<Positions>
+						<Lat>0</Lat>
+						<Lng>0</Lng>
+						<Vrt>-50</Vrt>
+						<Pitch>0</Pitch>
+					</Positions>
+				</Mvd>
+				<Kvd>
+					<SpecialPosition>mid</SpecialPosition>
+				</Kvd>
+				<Kvs>
+					<SpecialPosition>mid</SpecialPosition>
+				</Kvs>
+			</ImagingPoint>
+			<ImagingPoint>
+				<Cp>3</Cp>
+				<AcquisitionStop>
+					<AcquisitionId>841496012</AcquisitionId>
+					<AcquisitionSpecs>
+						<Handshake>true</Handshake>
+					</AcquisitionSpecs>
+				</AcquisitionStop>
+			</ImagingPoint>
+		</ImagingPoints>
+		<ImagingTolerances />
+	</ImagingParameters>
+	<CouchToleranceOverride>false</CouchToleranceOverride>
+	<PreviewBeam>false</PreviewBeam>
+	<TrajectoryLogMetaData>
+		<![CDATA[Patient ID:	$20200401121101
+Plan Name:	MMWL Full
+Plan UID:	1.2.246.352.221.4681119652560001200.7780844050430058635
+Original MU:	20
+Remaining MU:	0
+Energy:	6x
+BeamName:	G180]]>
+	</TrajectoryLogMetaData>
+</SetBeam>
+</VarianResearchBeam>

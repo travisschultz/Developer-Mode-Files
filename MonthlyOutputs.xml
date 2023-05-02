@@ -1,0 +1,40 @@
+﻿<VarianResearchBeam SchemaVersion="1.0">
+	<!--*************************** -->
+	<!--100 MU Monthly Output Beams -->
+	<!--2 beams for each energy     -->
+	<!--*************************** -->
+
+	<SetBeam>
+		<Id>6x Beam 1</Id>
+		<MLCModel>NDS120HD</MLCModel>
+		<Accs></Accs>
+		<ControlPoints>
+			<Cp>
+				<SubBeam>
+					<Seq>0</Seq>
+					<Name>Beam ON</Name>
+				</SubBeam>
+				<Energy>6x</Energy>
+				<Mu>0</Mu>
+				<DRate>600</DRate>
+				<GantryRtn>0.00</GantryRtn>
+				<CollRtn>0.0</CollRtn>
+				<Y1>15.00</Y1>
+				<Y2>15.00</Y2>
+				<X1>15.00</X1>
+				<X2>15.00</X2>
+			</Cp>
+			<Cp>
+				<Mu>100</Mu>
+			</Cp>
+			<Cp>
+				<Energy>10x</Energy>	
+			</Cp>
+			<Cp>
+				<Mu>200</Mu>
+			</Cp>
+
+
+		</ControlPoints>
+	</SetBeam>
+</VarianResearchBeam>
